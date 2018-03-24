@@ -10,7 +10,7 @@ RUN apt-get update ;\
 
 RUN \
     cd /opt ;\
-    git clone https://github.com/feedbin/feedbin.git ;\
+    git clone https://github.com/mjelks/feedbin.git ;\
     cd feedbin ;\
     gem install bundler redis
 
