@@ -21,7 +21,7 @@ feedbin:
     DATABASE_URL: postgres://feedbin:feedbin@postgres/feedbin_production
     DEFAULT_URL_OPTIONS_HOST: **changeme**
     ELASTICSEARCH_URL: http://elasticsearch:9200
-    FROM_ADDRESS: **changeme**
+    FROM_ADDRESS: maps@zaftig.net
     MEMCACHED_HOSTS: memcached:11211
     POSTGRES_PASSWORD: feedbin
     POSTGRES_USERNAME: feedbin
